@@ -1,1 +1,25 @@
-log_level: info
+name: "Root Terminal"
+description: "Donne au terminal un accès root."
+version: "1.0.0"
+slug: "root_terminal"
+init: false
+map: 
+  - config:rw 
+  - ssl:rw
+  - addons:rw
+  - backup:rw
+  - share:rw
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+host_network: true
+privileged:
+  - ALL
+full_access: true
+boot: auto
+startup: application
+ingress: false
+schema: {}
