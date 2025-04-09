@@ -1,8 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/with-contenv bashio
 
-echo "📦 My Root Terminal démarré"
-echo "🔍 Volumes montés :"
+echo "📦 Root Terminal lancé"
 mount | grep /mnt
 
-# Lancer le shell root
-/bin/bash
+exec /bin/bash
