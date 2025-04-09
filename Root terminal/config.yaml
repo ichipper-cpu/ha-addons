@@ -16,7 +16,3 @@ arch:
   - armhf
   - armv7
   - i386
-host_network: true
-full_access: true
-privileged:
-  - ALL
