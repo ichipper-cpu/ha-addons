@@ -21,4 +21,3 @@ full_access: true
 privileged:
   - ALL
 boot: auto
-startup: application
