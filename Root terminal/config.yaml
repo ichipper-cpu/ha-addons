@@ -20,4 +20,3 @@ host_network: true
 full_access: true
 privileged:
   - ALL
-boot: auto
