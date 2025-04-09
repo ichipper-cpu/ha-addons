@@ -1,0 +1,15 @@
+git config --global user.name Ichipper
+git config --global user.email kensite@gmx.fr
+
+git init
+git remote add origin https://github.com/ichipper-cpu/ha-addons.git
+git add .
+git commit -m "Root terminal"
+git push -u origin main
+
+
+
+git commit --amend --reset-author
+
+
+git commit -m "Hello world"
