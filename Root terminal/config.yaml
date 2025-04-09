@@ -23,5 +23,3 @@ privileged:
 boot: auto
 startup: application
 schema: {}
-build_from:
-  amd64: ghcr.io/hassio-addons/base/amd64:14.1.3
