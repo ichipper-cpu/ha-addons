@@ -22,4 +22,3 @@ privileged:
   - ALL
 boot: auto
 startup: application
-schema: {}
