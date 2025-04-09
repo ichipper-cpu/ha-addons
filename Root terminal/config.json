@@ -2,15 +2,18 @@
   "name": "Root Terminal",
   "version": "1.0.0",
   "slug": "root_terminal",
-  "description": "Un terminal avec accès root.",
-  "startup": "services",
-  "boot": "auto",
-  "hassio_api": true,
+  "description": "Donne au terminal un accès root.",
+  "init": false,
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "map": ["config:rw", "ssl:rw", "addons:rw", "backup:rw", "share:rw"],
   "host_network": true,
   "privileged": ["ALL"],
-  "map": ["config:rw", "ssl:rw", "addons:rw", "backup:rw", "share:rw"],
-  "options": {},
-  "schema": {},
-  "arch": ["armhf", "armv7", "aarch64", "i386", "amd64"],
-  "build": true
+  "full_access": true,
+  "boot": "auto",
+  "startup": "application",
+  "ingress": false,
+  "build": true,
+  "schema": {
+    "enabled": "bool"
+  }
 }
