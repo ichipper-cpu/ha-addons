@@ -1,0 +1,16 @@
+{
+  "name": "Root Terminal",
+  "version": "1.0.0",
+  "slug": "root_terminal",
+  "description": "Un terminal avec accès root.",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "host_network": true,
+  "privileged": ["ALL"],
+  "map": ["config:rw", "ssl:rw", "addons:rw", "backup:rw", "share:rw"],
+  "options": {},
+  "schema": {},
+  "arch": ["armhf", "armv7", "aarch64", "i386", "amd64"],
+  "build": true
+}
