@@ -9,7 +9,6 @@ map:
   - addons:rw
   - backup:rw
   - share:rw
-  - mnt:rw
 arch:
   - aarch64
   - amd64
