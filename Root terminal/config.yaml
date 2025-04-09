@@ -16,3 +16,12 @@ arch:
   - armhf
   - armv7
   - i386
+host_network: true
+full_access: true
+privileged:
+  - ALL
+boot: auto
+startup: application
+schema: {}
+build_from:
+  amd64: ghcr.io/hassio-addons/base/amd64:14.1.3
