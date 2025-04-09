@@ -3,4 +3,4 @@
 echo "📦 Root Terminal lancé"
 mount | grep /mnt
 
-exec /bin/bash
+/bin/bash
